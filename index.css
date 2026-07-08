@@ -1,0 +1,27 @@
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 18vw);  /* 3 columns, each 9vw wide */
+    grid-auto-rows: 18vh;                    /* each row 9vh tall */
+    gap: 20px;                              /* space between all */
+    justify-content: center;                /* center the grid horizontally */
+    align-content: center;                  /* center vertically on page */
+    min-height: 100vh;                      /* full viewport height */
+    margin: 0;                              /* remove default body margin */
+    padding: 0px;                          /* breathing room */
+}
+/**
+.spc {
+      height:100px;
+      width: 100vw;
+}
+**/
+iframe {
+    background-color: black;
+    border-radius: 25px;
+    width: 100%;        /* fill the grid cell */
+    height: 100%;       /* fill the grid cell */
+    border: none;       /* cleaner look, optional */
+}
+
